@@ -7,6 +7,7 @@ confirmation_recipient=me@tld.com
 
 [send_method]
 # either "local" or "custom"
+# if local, use the local machine SMTP method
 # if "custom", you must fullfill the next values.
 email_send_method=local
 

@@ -21,9 +21,13 @@ it You can also update this README by giving a brief description of your contrib
 
 ### Utils
 
-Tools for sysadmins.
+Tools for sysadmins :
 
 * [datasources_utils](utils/datasources_utils/README.md): view and test list datasources and custom attributes datasources
 * [sympatoldap](utils/sympatoldap/README.md): creates LDAP entries for every list (and its aliases) whose status is open on the LDAP server
 * [splitting_daemons_logs](utils/splitting_daemons_logs/README.md): split Sympa processus logs into separated files
 * [sqlite2mysql](utils/sqlite2mysql/README.md): attempt to convert sqlite to mysql
+
+Tools for mailing list owners :
+
+* [sympa-pymanage](utils/sympa-user-cli-pymanage/README.md): a basic python tool which sends [email commands](https://lists.sympa.community/help/commands.html) to the sympa server (eg: in order to update mailing lists from a program pipeline).

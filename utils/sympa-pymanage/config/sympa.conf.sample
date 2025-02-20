@@ -1,0 +1,19 @@
+[general]
+# sympa email server address
+sympa_mail=sympa@mailinglist.org
+# either to receive or not an aknowledgement
+confirmation=yes
+confirmation_recipient=me@tld.com
+
+[send_method]
+# either "local" or "custom"
+# if "custom", you must fullfill the next values.
+email_send_method=local
+
+# following is needed only if you do not have a local working MTA...
+smtp_remote_server="<smtp server to use>"
+smtp_remote_port=465
+smtp_sender="<sender email>"
+smtp_receiver="<sender recipient 1>, <sender recipient 2>"
+smtp_password="<my email password>"
+

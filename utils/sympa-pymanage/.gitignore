@@ -1,5 +1,6 @@
 outputs/*.log
 config/*.conf
+poetry.lock
 
 # from https://github.com/github/gitignore/blob/main/Python.gitignore
 
